@@ -1,0 +1,4 @@
+# Project exclude paths
+/eurika-server/target/
+/feign-client/target/
+/web-server/target/

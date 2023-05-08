@@ -12,7 +12,6 @@
         <module>feign-client</module>
         <module>eurika-server</module>
         <module>web-server</module>
-        <module>example</module>
     </modules>
 
     <properties>
