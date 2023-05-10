@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class Controller implements StatusController {
+public class WebServer implements StatusController {
     public static void main(String[] args) {
-        SpringApplication.run(Controller.class, args);
+        SpringApplication.run(WebServer.class, args);
     }
     @Override
     public String status() {

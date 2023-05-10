@@ -12,6 +12,7 @@
         <module>feign-client</module>
         <module>eurika-server</module>
         <module>web-server</module>
+        <module>openfeign-client</module>
     </modules>
 
     <properties>

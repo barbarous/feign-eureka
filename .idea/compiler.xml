@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="feign-client" />
         <module name="eurika-server" />
+        <module name="openfeign-client" />
         <module name="web-server" />
       </profile>
     </annotationProcessing>

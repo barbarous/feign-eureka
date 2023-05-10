@@ -1,14 +1,11 @@
 spring:
   application:
-    name: web-server
+    name: spring-cloud-eureka-open-client
 server:
-  port: 5555
+  port: 0
 eureka:
   client:
     serviceUrl:
       defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
   instance:
     preferIpAddress: true
-
-test:
-  test: xxxx
